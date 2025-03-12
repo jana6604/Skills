@@ -1,7 +1,8 @@
 # Convert a given temperature from Celsius to Fahrenheit.
 
-celsius = float(input("Enter a celsius value:"))
 
-Fahrenheit = (celsius * 1.8) + 32 
+celsius = float(input("Enter a Celsius value: "))
 
-print(f"{celsius}celsius  equalient to: {Fahrenheit}")
+fahrenheit = (celsius * 1.8) + 32 
+
+print(f"{celsius}°C is equivalent to {fahrenheit:.2f}°F")  
