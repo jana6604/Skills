@@ -2,13 +2,13 @@
 
 n = int(input("Enter a number:"))
 
-list = []
+numbers = []
 
 for i in range(n) :
     element = input(f"The Element {i+1} :")
-    list.append(element)
+    numbers.append(element)
 
-largest = max(list)
-smallest = min(list)
+largest = max(numbers)
+smallest = min(numbers)
 
 print(f"The largest number is {largest} and smallest number is {smallest} ")
